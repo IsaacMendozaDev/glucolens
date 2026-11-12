@@ -6,7 +6,7 @@ Aplicación web del proyecto de aula de **Minería de Datos** (Universidad de la
 
 > ⚠️ **Prototipo académico.** GlucoLens no es un dispositivo médico, no diagnostica y no sustituye el criterio de un profesional de la salud.
 
-- **Aplicación:** https://glucolens.streamlit.app
+- **Aplicación:** https://glucolens-cuc.streamlit.app
 - **Integrante:** Isaac Mendoza Herrera
 - **Docente:** José Escorcia-Gutierrez, Ph.D. — Departamento de Ciencias de la Computación y Electrónica
 - **Actividad:** Actividad 1 del tercer corte — Integración y despliegue del modelo con Streamlit
