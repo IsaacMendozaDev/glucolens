@@ -1,0 +1,98 @@
+{
+  "modelo": "Random forest (imputación con mediana) + umbral de decisión",
+  "hiperparametros": {
+    "max_depth": 8,
+    "max_features": 0.5,
+    "min_samples_leaf": 10
+  },
+  "umbral": 0.4,
+  "variables": [
+    "Pregnancies",
+    "Glucose",
+    "BloodPressure",
+    "SkinThickness",
+    "Insulin",
+    "BMI",
+    "DiabetesPedigreeFunction",
+    "Age"
+  ],
+  "n_entrenamiento": 614,
+  "n_prueba": 154,
+  "metricas_prueba": {
+    "Accuracy": 0.727,
+    "Precision (1)": 0.575,
+    "Recall (1)": 0.852,
+    "F1 (1)": 0.687,
+    "Especificidad": 0.66,
+    "ROC-AUC": 0.83
+  },
+  "matriz_confusion": {
+    "VN": 66,
+    "FP": 34,
+    "FN": 8,
+    "VP": 46
+  },
+  "validacion_cruzada": {
+    "accuracy (media)": 0.735,
+    "recall (media)": 0.846,
+    "precision (media)": 0.584,
+    "f1 (media)": 0.69,
+    "recall (desv.)": 0.027,
+    "f1 (desv.)": 0.028
+  },
+  "rangos_observados": {
+    "Pregnancies": {
+      "min": 0.0,
+      "max": 17.0,
+      "mediana": 3.0
+    },
+    "Glucose": {
+      "min": 44.0,
+      "max": 199.0,
+      "mediana": 117.0
+    },
+    "BloodPressure": {
+      "min": 24.0,
+      "max": 122.0,
+      "mediana": 72.0
+    },
+    "SkinThickness": {
+      "min": 7.0,
+      "max": 99.0,
+      "mediana": 29.0
+    },
+    "Insulin": {
+      "min": 14.0,
+      "max": 846.0,
+      "mediana": 125.0
+    },
+    "BMI": {
+      "min": 18.2,
+      "max": 67.1,
+      "mediana": 32.3
+    },
+    "DiabetesPedigreeFunction": {
+      "min": 0.078,
+      "max": 2.42,
+      "mediana": 0.3725
+    },
+    "Age": {
+      "min": 21.0,
+      "max": 81.0,
+      "mediana": 29.0
+    }
+  },
+  "metricas_antes": {
+    "Accuracy": 0.727,
+    "Precision (1)": 0.588,
+    "Recall (1)": 0.741,
+    "F1 (1)": 0.656,
+    "Especificidad": 0.72,
+    "ROC-AUC": 0.819,
+    "Brecha F1": 0.193,
+    "FN": 14,
+    "FP": 28
+  },
+  "brecha_f1_final": 0.081,
+  "version_scikit_learn": "1.9.1"
+}
