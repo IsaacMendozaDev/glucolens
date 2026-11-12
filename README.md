@@ -22,7 +22,7 @@ Aplicación web del proyecto de aula de **Minería de Datos** (Universidad de la
 
 ## Datos
 
-Conjunto de datos **Pima Indians Diabetes** ([Kaggle: amineipad/diabetes-dataset](https://www.kaggle.com/datasets/amineipad/diabetes-dataset)): 768 registros de mujeres de al menos 21 años de herencia indígena Pima, 8 variables predictoras numéricas y la variable objetivo `Outcome` (1 = con diabetes). No contiene datos personales identificables.
+Conjunto de datos **Pima Indians Diabetes**, descargado de Kaggle (publicación *Diabetes Dataset* del usuario amineipad, `kaggle.com/datasets/amineipad/diabetes-dataset`). El archivo utilizado está en este repositorio: [`diabetes.csv`](diabetes.csv). Contiene 768 registros de mujeres de al menos 21 años de herencia indígena Pima, 8 variables predictoras numéricas y la variable objetivo `Outcome` (1 = con diabetes). No contiene datos personales identificables.
 
 ## Modelo
 

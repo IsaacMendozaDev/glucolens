@@ -137,8 +137,8 @@ with st.sidebar:
     st.markdown("**Integrante**  \nIsaac Mendoza Herrera")
     st.markdown("**Asignatura**  \nMinería de Datos · Ingeniería de Sistemas  \nUniversidad de la Costa (CUC)  \n"
                 "Prof. José Escorcia-Gutierrez, Ph.D.")
-    st.markdown("**Datos**  \n[Diabetes Dataset (Pima Indians) · Kaggle]"
-                "(https://www.kaggle.com/datasets/amineipad/diabetes-dataset)")
+    st.markdown("**Datos**  \n[Diabetes Dataset (Pima Indians)](https://github.com/IsaacMendozaDev/glucolens/blob/main/diabetes.csv)  \n"
+                "Fuente original: Kaggle (amineipad/diabetes-dataset)")
 
 st.title("GlucoLens")
 st.markdown("##### Predicción de diabetes mediante técnicas de minería de datos aplicadas a indicadores clínicos y demográficos")
@@ -165,8 +165,9 @@ with tab_inicio:
             "pacientes con diabetes (falsos negativos).")
         st.subheader("Fuente de los datos")
         st.markdown(
-            "Conjunto de datos **Pima Indians Diabetes**, descargado de "
-            "[Kaggle](https://www.kaggle.com/datasets/amineipad/diabetes-dataset). Contiene 768 registros de mujeres "
+            "Conjunto de datos **Pima Indians Diabetes**, descargado de Kaggle (publicación *Diabetes Dataset* del "
+            "usuario amineipad). El archivo utilizado está disponible en el "
+            "[repositorio del proyecto](https://github.com/IsaacMendozaDev/glucolens/blob/main/diabetes.csv). Contiene 768 registros de mujeres "
             "de al menos 21 años de herencia indígena Pima, con 8 variables predictoras y el diagnóstico (`Outcome`). "
             "Los datos fueron recolectados originalmente por el Instituto Nacional de Diabetes y Enfermedades "
             "Digestivas y Renales de Estados Unidos.")
